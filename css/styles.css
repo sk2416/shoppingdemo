@@ -1,0 +1,30 @@
+
+
+/* selling */
+#selling {
+
+  font-family: "Montserrat";
+  text-align: center;
+  padding: 100px;
+  background-color: #ffff;
+
+}
+.selling-column {
+  
+  padding: 0% 2%;
+}
+/* selling end */
+
+#zone {
+  background-color: #ffff;
+
+}
+
+
+
+.carousel-img{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
