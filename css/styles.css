@@ -51,8 +51,19 @@ p {
 .download-button {
   margin: 5% 3% 5% 0;
 }
+/* day deals */
+#daydeals {
+  background-color: #fff;
+  color: #0F0F0F;
+  text-align: left;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
 
 /* Title Section */
+
 
 #title {
   background-color: #fff;
@@ -63,16 +74,6 @@ p {
 #title .container-fluid {
   padding: 3% 15% 7%;
 }
-
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
-}
-
 /* Features Section */
 
 #features {
@@ -134,9 +135,3 @@ p {
   #title {
     text-align: center;
   }
-
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
