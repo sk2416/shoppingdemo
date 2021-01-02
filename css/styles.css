@@ -1,32 +1,142 @@
 
-
-/* selling */
-#selling {
-
+body {
   font-family: "Montserrat";
   text-align: center;
-  padding: 100px;
-  background-color: #ffff;
-
 }
 
-
-.selling-column {
-
-  padding: 0% 2%;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
-/* selling end */
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: "Montserrat-Black";
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #fff;
+  color: #00303f;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+  background-color: #fff;
+  color: #583d72;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:#fdb827 ;
+  transform: scale(1.2);
+}
+
+/* zone Section */
 
 #zone {
-  background-color: #ffff;
+  background-color: #fff;
+}
+#zone1 {
+  padding-top: 6%;
+  background-color: #fff;
+}
 
+/* Pricing Section */
+
+#topbrands {
+  padding: 100px;
 }
 
 
 
-.carousel-img{
+.topbrands-column {
+  padding: 3% 2%;
+}
 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media (max-width: 1028px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
 }

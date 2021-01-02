@@ -1,21 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="css\styles.css">
-    <!-- scripts -->
-    <!-- js -->
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <!-- js end -->
+<html>
 
-    <title>sk trends</title>
-  </head>
-  <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
+<head>
+  <meta charset="utf-8">
+  <title>Sk trends</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/3852384721.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <div class="container">
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -99,138 +110,254 @@
   </div>
 </nav>
 
+<!-- Carousel -->
 
-<!-- best selling catgories -->
-<section class="" id="selling">
-  <h1>Bestselling Categories</h1>
-  <div class="row">
+<section class="colored-section" id="zone1">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active ">
+        <img src="images\carsol\e.jpg" class="img-fluid carousel-img" alt="img">
+      </div>
+      <div class="carousel-item ">
+        <img src="images\carsol\h.jpg" class="img-fluid carousel-img" alt="img">
+      </div>
+      <div class="carousel-item ">
+        <img src="images\carsol\f.jpg" class="img-fluid carousel-img" alt="img">
+      </div>
+      <div class="carousel-item  ">
+        <img src="images\carsol\g.jpg" class="img-fluid carousel-img" alt="img">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+  </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\1.jpg" class="img-fluid" alt="img">
+</section>
+
+
+
+  <section class="colored-section" id="title">
+
+    <div class="container-fluid">
+      <!-- Title -->
+      <h1 class="big-heading">Bestselling Categories</h1>
+        <div class="row">
+
+      <div class="selling-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/men-tshirts"><img src="images\best selling images\2.jpg" class="img-fluid " alt="img"></a>
+
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\2.jpg" class="img-fluid" alt="img">
+      <div class="selling-column col-lg-3 col-md-3">
+      <img src="images\best selling images\3.jpg" class="img-fluid " alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\3.jpg" class="img-fluid" alt="img">
+      <div class="selling-column  col-lg-3 col-md-3">
+      <img src="images\best selling images\4.jpg" class="img-fluid " alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\4.jpg" class="img-fluid" alt="img">
+      <div class="selling-column col-lg-3 col-md-3">
+      <img src="images\best selling images\5.jpg" class="img-fluid " alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\5.jpg" class="img-fluid" alt="img">
+      <div class="selling-column col-lg-3 col-md-3">
+      <img src="images\best selling images\6.jpg" class="img-fluid " alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
-      <img src="images\best selling images\6.jpg" class="img-fluid" alt="img">
-      </div>
-
-      <div class="selling-column col-lg-2 col-md-3 col-sm-4">
+      <div class="selling-column col-lg-3 col-md-3" >
       <img src="images\best selling images\7.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column  col-lg-3 col-md-3">
       <img src="images\best selling images\8.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\9.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\10.jpg" class="img-fluid" alt="img">
       </div>
 
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\12.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3 ">
-      <img src="images\best selling images\13.jpg" class="img-fluid" alt="img">
-      </div>
-
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\14.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\15.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\16.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\17.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\19.jpg" class="img-fluid" alt="img">
       </div>
 
-      <div class="selling-column col-lg-2 col-md-3">
+      <div class="selling-column col-lg-3 col-md-3">
       <img src="images\best selling images\20.jpg" class="img-fluid" alt="img">
       </div>
 
+            </div>
+
+  </section>
+
+
+  <!-- Carousel -->
+
+
+  <section class="colored-section" id="zone">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images\carsol\a.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\carsol\b.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\carsol\c.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images\carsol\d.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"></span>
+    </a>
+  </div>
+
+
+  </section>
+
+
+  <!-- topbrands -->
+
+  <section class="white-section" id="topbrands">
+
+    <h2 class="section-heading">EXPLORE TOP BRANDS</h2>
+
+
+    <div class="row">
+      <div class="topbrands-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/nike"><img src="images\top brands\top1.jpg" class="img-fluid" alt="img"></a>
       </div>
 
-</section>
+      <div class="topbrands-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/levis"><img src="images\top brands\top2.jpg" class="img-fluid" alt="img"></a>
+      </div>
 
+      <div class="topbrands-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/roadster"><img src="images\top brands\top3.jpg" class="img-fluid" alt="img"></a>
+      </div>
 
- <!-- zone -->
-<section class="" id="zone">
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active ">
-      <img src="images\a.jpg" class="img-fluid carousel-img" alt="img">
+      <div class="topbrands-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/jack-and-jones"><img src="images\top brands\top4.jpg" class="img-fluid" alt="img"></a>
+      </div>
+
+      <div class="topbrands-column  col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/hrx"><img src="images\top brands\top5.jpg" class="img-fluid" alt="img"></a>
+      </div>
+
+      <div class="topbrands-column col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/only"><img src="images\top brands\top6.jpg" class="img-fluid" alt="img"></a>
+      </div>
+
+      <div class="topbrands-column col-lg-3 col-md-3">
+        <a href="https://www.myntra.com/h&m">  <img src="images\top brands\top7.jpg" class="img-fluid" alt="img"></a>
+      </div>
+
+      <div class="topbrands-column col-lg-3 col-md-3">
+      <a href="https://www.myntra.com/myntra-fashion-store?f=Brand%3AW"><img src="images\top brands\top8.jpg" class="img-fluid" alt="img"></a>
+      </div>
+
     </div>
-    <div class="carousel-item ">
-      <img src="images\b.jpg" class="img-fluid carousel-img" alt="img">
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class="colored-section" id="cta">
+
+    <div class="container-fluid">
+
+      <h5 class="big-heading">EXPERIENCE Sk TRENDS APP ON MOBILE</h5>
+      <button class="download-button btn btn-lg btn-dark" type="button"><i class="fab fa-apple"></i> Download</button>
+      <button class="download-button btn btn-lg brn-light" type="button"><i class="fab fa-google-play"></i> Download</button>
     </div>
-    <div class="carousel-item ">
-      <img src="images\c.jpg" class="img-fluid carousel-img" alt="img">
+  </section>
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-truck fa-7x"></i>
+          <h3 class="feature-title">Free and fast delivery</h3>
+          <p> Sk trends Plus programme include Free Delivery on "crores of products," and Early Access to Major Sale Events</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-sync-alt fa-7x"></i>
+          <h3 class="feature-title">Easy Returns and Refund</h3>
+          <p>All returns are covered by the Sk trends replacement guarantee.if the specific product or model that you want is out of stock, our customer support team may advise you to opt for a refund.</p>
+        </div>
+
+        <div class="feature-box col-lg-4">
+          <i class="icon fas fa-hand-holding-usd fa-7x"></i>
+          <h3 class="feature-title">Save Money</h3>
+          <p>It’s no surprise that Sk trends makes the list of great brand promise examples. By combining the obvious promise of low prices with emotional benefits</p>
+        </div>
+      </div>
+
+
     </div>
-    <div class="carousel-item  ">
-      <img src="images\d.jpg" class="img-fluid carousel-img" alt="img">
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fas fa-envelope"></i>
+      <p>© Copyright 2018 SK TRENDS</p>
     </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </a>
-</div>
-</section>
-
-<!-- top catagerious to bag -->
-<section class="" id="to bag">
+  </footer>
 
 
+</body>
 
-
-</section>
-
-<!-- last all details -->
-<section class="" id="last">
-
-
-</section>
-
-
-
-  </body>
 </html>
